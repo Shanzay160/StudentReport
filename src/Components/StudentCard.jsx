@@ -1,7 +1,7 @@
 import React from 'react';
 
 const StudentCard = (props) => {
-  const { name, subjects } = props.student; // Remove totalMarks and averageMarks from here
+  const { name, subjects } = props.student;
 
   return (
     <div className="student-card">
