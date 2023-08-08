@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(45deg, #FCE38A, #ffc2c2, #95E1D3, #EAFFD0);
+}
+
+.result {
+  text-align: center;
+  margin: 2rem;
+}
+
+/* Container outside 4 boxes */
+.student-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.student-card {
+  border: 2px solid #ccc;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 300px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.student-card h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.student-card table {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.student-card table th,
+.student-card table td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-card table th {
+  font-weight: bold;
+}
+
+.student-card p {
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+.result h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
